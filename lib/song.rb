@@ -45,6 +45,8 @@ class Song
     artist_name = info[0]
     song_name = info[1].gsub(".mp3", "")
     
+    song.name = song_name
+    art
   end
 end
 
